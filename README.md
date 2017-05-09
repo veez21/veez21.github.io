@@ -5,3 +5,4 @@
 Links: 
 * [XDA](https://forum.xda-developers.com/member.php?u=7296895)
 * [Facebook](https://www.facebook.com/ValenciaTigerheart) 
+* [The Page itself](https://veez21.github.io)
