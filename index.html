@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
+    <meta charset="utf-8">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-light_blue.min.css">
-	<link rel="stylesheet" href="styles.css">
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="./css/styles.css">
 	<style>
 		#view-source {
 			position: fixed;
@@ -19,6 +22,9 @@
 		}
 		p.center {
 			text-align: center;
+		}
+		p.back {
+			background-color: #2a2a2a;		
 		}
 		img.center {
 			display: block;
@@ -94,20 +100,19 @@
 		</div>
 		</section>
 		<br><br><br><br><br>
-		<!img class="center" src="./images/valmmm.png" alt="veez21"/>
+		<img class="center" src="./images/valmmm.png" alt="veez21"/>
 		<br>
-		<div class="card">
-			<div class="card-image waves-effect waves-block waves-light">
-				<img class="activator" src="./images/valmmm.png">
-			</div>
+		<div class="card grey darken-1">
+			<!div class="card-image waves-effect waves-block waves-light">
+				<!img class="activator" src="./images/rsz_valmmm.png">
+			<!/div>
 			<div class="card-content">
-				<span class="card-title activator grey-text text-darken-4">veez21<i class="material-icons right">more_vert</i></span>
+				<span class="card-title gray-text activator">About Me<i class="material-icons right">more_vert</i></span>
 				<p><a href="https://forum.xda-developers.com/member.php?u=7296895">xda</a></p>
 			</div>
-			<div class="card-reveal">
+			<div class="card-reveal grey">
 				<span class="card-title grey-text text-darken-4">About Me<i class="material-icons right">close</i></span>
-				<p>Android Fanatic. Coder. Watches Animes and Cartoons.</p>
-				<p><br>"I ❤ Android (and Anime)"</p>
+				<p class="center">Android Fanatic. (not experienced) Coder. Watches Animes and Cartoons.</p>
 			</div>
 		</div>
 		<br><br><br><br>
@@ -127,5 +132,7 @@
 			</div>
 		</footer>
 		<a href="https://forum.xda-developers.com/member.php?u=7296895" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white">My XDA Profile</a>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
 	</body>
 </html>
