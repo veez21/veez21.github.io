@@ -18,8 +18,12 @@ p{margin:0px;}
 p.center {
 	text-align: center;
 }
-p.back {
+p.black {
 	background-color: #2a2a2a;
+}
+p {
+	color: grey;
+	text-align: center
 }
 img.center {
 	display: block;
@@ -62,6 +66,7 @@ button{
 50%, 100%{transform:scale3d(1, 1, 1);}
 100%{opacity:0;}
 }
+
 .js .inputfile {
     width: 0.1px;
     height: 0.1px;
@@ -72,16 +77,49 @@ button{
 }
 
 .inputfile + label {
+	border-radius: 2px;
     max-width: 80%;
     font-size: 1.25rem;
-    /* 20px */
     font-weight: 700;
-    text-overflow: ellipsis;
+   text-overflow: ellipsis;
     white-space: nowrap;
     cursor: pointer;
     display: inline-block;
     overflow: hidden;
     padding: 0.625rem 1.25rem;
-    /* 10px 20px */
 }
 
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label * {
+    /* pointer-events: none; */
+    /* in case of FastClick lib use */
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+
+.inputfile-1 + label {
+    color: #aaaaaa;
+    background-color: #444444;
+}
+
+.inputfile-1:focus + label,
+.inputfile-1.has-focus + label,
+.inputfile-1 + label:hover {
+    background-color: #333333;
+}
