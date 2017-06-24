@@ -64,7 +64,7 @@ img.center {
 	margin: 20px auto;
 	height:400px;
 	width:500px;
-	background:#f45673;
+	background:#333333;
   
 }
 @-webkit-keyframes ripple{0%{transform:scale3d(0, 0, 0);}
@@ -146,8 +146,7 @@ img.center {
   overflow: hidden;
   flex-grow: 1;
   padding: 24px;
-	border-radius: 2px;
-  margin: 0;
+  border-radius: 2px;
   color: inherit;
   display: block;
   line-height: 32px;
@@ -156,4 +155,9 @@ img.center {
   width: 512px;
   text-align: center;
   margin: 0 auto;
+}
+.container-lol {
+  margin: 0 auto;
+  max-width: 1080px;
+  width: 90%;
 }
