@@ -161,3 +161,21 @@ img.center {
   max-width: 1080px;
   width: 90%;
 }
+
+.waves-effect.waves-default .waves-ripple {
+  background-color: #b5b5b5;
+}
+
+.btn, .btn-large {
+  text-decoration: none;
+  color: #fff;
+  background-color: #828282;
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+}
+
+.btn:hover, .btn-large:hover {
+  background-color: #23262b;
+}
