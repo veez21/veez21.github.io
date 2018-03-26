@@ -13,13 +13,13 @@
 }
 body {
 	background-color: #2a2a2a;
-    /*display: flex;
+    display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
 main {
 	flex: 1 0 auto;
-}*/
+}
 p{margin:0px;}
 p.center {
 	text-align: center;
