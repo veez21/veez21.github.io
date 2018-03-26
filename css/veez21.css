@@ -11,9 +11,9 @@
 	margin-bottom: 40px;
 	z-index: 900;
 }
-/*body {
+body {
 	background-color: #2a2a2a;
-    display: flex;
+    /*display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
